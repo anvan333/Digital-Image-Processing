@@ -82,7 +82,7 @@ class Operation:
 
         sum_right = 0
         sum_left = 0
-        
+
         num_right = 0
         num_left = 0
 
@@ -97,7 +97,6 @@ class Operation:
 
         intensity_left = sum_left / num_left
         intensity_right = sum_right / num_right
-
         offset_right = 128 - intensity_right
         offset_left = 128 - intensity_left
 
