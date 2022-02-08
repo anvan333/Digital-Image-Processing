@@ -82,6 +82,7 @@ class Operation:
 
         sum_right = 0
         sum_left = 0
+        
         num_right = 0
         num_left = 0
 
