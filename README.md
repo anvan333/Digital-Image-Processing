@@ -4,7 +4,7 @@
 
 **1.  Image Merging:**
 
-(10 pts.) Write code to merge two images of the computer scientist *Grace Hopper*. In 1952, *Grace Hopper* and her team created the first compiler for computer languages.
+Merge two images of the computer scientist *Grace Hopper*. In 1952, *Grace Hopper* and her team created the first compiler for computer languages.
 
 ![image_test2](https://user-images.githubusercontent.com/25855062/91643178-9f2d6380-e9f6-11ea-8cea-2313e80365c6.jpg)
 
@@ -16,7 +16,7 @@ The inputs to your function are: (i) image left: grace\_1.png (size: 350 Rows X 
     
 **2.  Intensity Scaling:**
 
-(10 pts.) Write code to scale the intensity of the left section of the merged image by a scaling factor of alpha and the right section by a scaling factor of beta. 
+Code to scale the intensity of the left section of the merged image by a scaling factor of alpha and the right section by a scaling factor of beta. 
 
 *Image Scaling*: Image/Intensity scaling is a linear image operation where each pixel is multiplied by a scaling factor. The scaling factor is a value between 0 and 1.  
 The inputs to your function are: (i) input image, (ii) image column at which left section ends, (iii) alpha: scaling factor for the left section (0 <= alpha <= 1) and (iv) beta: scaling factor for the right section ((0 <= beta <= 1).
@@ -25,7 +25,7 @@ The inputs to your function are: (i) input image, (ii) image column at which lef
   
 **3.  Centralizing pixel intensities:**
 
-(5 pts.) Write code to centralize the intensities of the two sections of the image.
+Code to centralize the intensities of the two sections of the image.
 
 Centralizing Pixels: When merging, the two images can have very different overall brightness values. Here the goal is to make sure that the average intensities of the left section and the right section are equal and centralized (= 128).
 After centralizing pixels, the average of all the pixels in the left section will be ~128 and the average of all the pixels in the right section will be ~128 as well.
@@ -67,9 +67,6 @@ Two images are provided for testing: grace\_1.jpg and grace\_2.png
 PS. Please do not change dip_hw0.py, requirements.txt, and Jenkinsfile. 
 
 
-1. Operation      - 30 Pts.
-
-    Total         - 30 Pts.
 
 
 -----------------------
