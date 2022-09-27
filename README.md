@@ -1,7 +1,6 @@
 # Digital Image Processing 
-## Assignment - 0 ##
 
-Due: Tue 02/08/22 11:59 PM
+
 
 **1.  Image Merging:**
 
